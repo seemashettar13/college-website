@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .header{
+    background-image:linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+    margin-top: 20px;
+    height: 100px;
+  }
+  .heading h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight: 800;
+    padding-top: 20px;
+    color: #fff;
+  }
+  .card-container1{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   margin-left: 120px;
+   margin-right: 120px;
+   margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  }
+  .card-container1 .card{
+   width: 280px;
+   height: 510px;
+   background-color: #f0f0f0;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+   margin: 20px;
+   background-image:white;
+  }
+  .card-container1 .card h2{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:1000;
+    color:rgb(16, 91, 16);
+    margin-left: 50px;
+    margin-top: 20px; 
+  }
+  .card img{
+   width: 50%;
+   height: 10px;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   
+  }
+  .card-content{
+    padding: 10px;
+  }
+  .card-content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-box1{
+  width: 80%;
+  margin-left: 10%;
+  height: 70px;
+     background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%) ;
+    border-radius: 10px;
+     text-align: center;
+   }
+   .Faculties h2{
+     font-size: 40px;
+     margin-top: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 1000;
+     text-align: center;
+     padding-top: 10px;
+     color:#fff;  
+   }
+  .form-box2{
+   margin-left: 500px;
+  margin-right: 600px;
+  width: 30%;
+  height: 50%;
+    background: white;
+    padding: 1px;
+    text-align: center;
+  }
+  .bsc h2{
+    font-size: 40px;
+    margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(16, 91, 16);  
+  }
+
+  .form-box2 .underline{
+    width: 55%;
+     height: 5px;
+     background-color:rgb(16, 91, 16);
+     margin: 10px auto 30px auto;
+     border-radius: 2px;
+    
+  }
+  .card-container2{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+  }
+  .card-container2 .card{
+    width: 280px;
+   height: 510px;
+   background-color: #f0f0f0;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+   margin: 20px;
+   background-image:white;
+  }
+  .card img{
+    width: 50%;
+    height: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+   }
+  .card-content{
+    padding: 16px;
+  }
+  .card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+
+  .form-box3 {
+   margin-left: 500px;
+   margin-right: 600px;
+   width: 30%;
+   height: 50%;
+     background: white;
+     padding: 1px;
+     text-align: center; 
+   }
+   .bcom h1{
+     font-size: 40px;
+     margin-top: 2px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 1000;
+     text-align: center;
+     padding-top: 50px;
+     color:rgb(16, 91, 16);  
+   }
+  
+   .form-box3 .underline{
+     width: 65%;
+     height: 5px;
+     background-color:rgb(16, 91, 16);
+     margin: 10px auto 30px auto;
+     border-radius: 2px;
+   }
+  .card-container3{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 20px;
+  }
+  .card-container3 .card{
+    width: 280px;
+    height: 510px;
+   background-color: #f0f0f0;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+   margin: 20px;
+  }
+  .card img{
+   width: 100%;
+   height: auto;
+  }
+  .card-content{
+    padding: 16px;
+  }
+  .card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+
+  
+  
+  /* footer
+	{
+		text-decoration:none;
+		display:relative;
+	}
+	.footer-container
+	{
+		width:100%;
+		background:#317256;
+		padding:0px;
+		margin-top:10px;
+	
+	}
+		.footer-container p 
+		{
+			text-align:center;
+			color:white;
+				padding-top:3px;
+				padding-bottom:5px;
+
+		}
+	.socialicons 
+	{
+		display:flex;
+justify-content:center;
+
+	}
+	.socialicons a 
+	{
+		padding:4px 5px;
+		border-radius:50%;
+	}
+	.socialicons a i
+	{
+		font-size:1em;
+		color:white;
+	}
+		.socialicons a:hover{
+	background-color:white;
+	transition:0.5s;
+	}
+	.socialicons a:hover i{
+    color:#317256;
+	transition:0.5s;
+	}
+	.footernav
+	{
+		display:flex;
+	}
+	.footernav ul li a{
+		color:white;
+		text-decoration:none;
+	}
+	 */

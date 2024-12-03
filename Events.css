@@ -1,0 +1,257 @@
+*{
+    Padding: 0;
+    Margin: 0;
+   }
+   /* .header{
+    background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+    color: #f3e8e8;
+    text-align: center;
+    margin-top: -10px;
+    height: 100px;
+    }
+    .heading1 h1{
+    font-size: 1000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 5000;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-top: 40px;
+    } */
+
+
+
+   .navbar 
+   {
+    background:#0c3925;
+    Color: white;
+    Position: sticky;
+    Width: 100%;
+    Height: 83px;
+    Z-index: 1000;
+    Top: 5;
+    Display: flex;
+    Justify-content: center;
+    Text-align: center;
+   }
+   .navbar a 
+   {
+    Color: white;
+   Text-decoration: none;
+    Font-size: 49px;
+   }
+   .navdiv 
+   {
+    Display: flex;
+    Justify-content: space-between;
+ Margin-left: 49%;
+}
+ .navbar a hover
+{
+ Transform: scale (1.0s);
+ Color: black;
+} 
+
+.container1{
+    position: relative;
+   /* width: 80%;*/
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 2% ;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .imgslider{
+  position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: 15s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+  }
+  .campus{
+  position: relative;
+    min-width: 100%;
+    height:100%;
+  }
+  .campus img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  @keyframes sliding {
+    0% {
+      transform: translateX(0%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+/* .container1
+{
+ Margin-top: 20px;
+ Position: relative;
+ Width: 100%;
+ Height: 600px;
+ Display: flex;
+ Justify-content: flex-start;
+ Align-items: center;
+ Overflow: hidden;
+ Border-top-left-radius: 20px;
+ Border-top-right-radius: 20px;
+ Border-bottom-left-radius: 20px;
+ Border-bottom-right-radius: 20px;
+ Margin-top: 2% 0;
+}
+.imgslider 
+{
+ Position: relative;
+ Width: 100%;
+ Height: 100%;
+ Display: flex;
+ Flex-direction: row;
+ Align-items: center;
+ Justify-content: space-between;
+ Animation: 15s cubic-Bezier (1, 0.95, 0.565,1) sliding infinite;
+}
+.seminar
+{
+ Position: relative;
+ Min-width: 100%;
+ height: 100%;
+}
+.seminar img {
+    Width: 100%;
+     Height: 100%;
+border-radius: 15px;
+    }
+
+     @key frames sliding {
+     0 %{
+     Transform: translate (0%);
+     
+    }
+     20 %{
+     Transform: translateX (0%);
+     
+    }
+     25 %{
+     Transform: translateX (
+    -100%);
+     
+    }
+     45 %{
+     Transform: translateX (
+    -100%);
+     
+    }
+     50 %{
+     Transform: translateX
+    (
+    -200%);
+     
+    }
+     70 %{
+     Transform: translateX (
+    -200%);
+     
+    }
+     75 %{
+     Transform: translateX (
+    -300%);
+     
+    }
+     95 %{
+     Transform: translateX (
+    -300);
+     
+    }
+     100 %{
+     Transform: translateX (
+    -400%);
+     
+    }
+    } */
+    .container {
+ Display: block;
+     Margin: 20px auto;
+     Background: light grey;
+     Padding: 20px;
+    border-radius: 5px;
+    Display: row;
+ }
+ .Header h2 
+{
+Margin-top: 10px;
+ background:#0c3925;
+ Color: white;
+ Width: 100%;
+ Height: 70px;
+ Display: block;
+ Border-radius: 10px;
+ Text-align: center;
+ Font-size: 60px;
+ }
+ .header h2 hover {
+Transform: scale (1.05);
+ Color: black;
+ 
+ }
+ .p
+{
+ Margin: 2% 2%;
+ Font-size: 30px;
+ Color: black;
+ Font-weight: bold;
+ Line-height: 1.6;
+ Font-style: italic;
+ Text-align: justify;
+ }
+.image-container
+{
+ Text-align: center;
+ Flex-direction: row;
+ Margin: 20px 0;
+}
+.image-container img
+{
+ Width: 300px;
+ Height: 300px;
+ Border: solid;
+ Border-radius: 10px;
+ Cursor: pointer;
+ Margin: 30px;
+ Transition: 400ms;
+ }
+ 
+.image-container img hover
+{
+ Transform: scale (1.05);
+}
